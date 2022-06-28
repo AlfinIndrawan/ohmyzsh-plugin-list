@@ -24,9 +24,9 @@ Enable custom plugins with cloning their git into ~/.oh-my-zsh/plugins folder an
 - [aliases](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aliases)
 - [docker](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker)
 - [docker-compose](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker-compose)
-- [docker-machine](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker-machine)
 - [git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git)
 - [laravel](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/laravel)
+- [npm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/npm)
 
 ## Recommendation Custom Plugins
 - [Auto-suggestion](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
