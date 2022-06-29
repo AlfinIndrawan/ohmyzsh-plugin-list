@@ -27,10 +27,12 @@ Enable custom plugins with cloning their git into ~/.oh-my-zsh/plugins folder an
 - [git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git)
 - [laravel](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/laravel)
 - [npm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/npm)
+- [jsontools](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/jsontools)
+- [dirhistory](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/dirhistory)
 
 ## Recommendation Custom Plugins
 - [Auto-suggestion](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
-- [Syntax-highlight](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
+- [Syntax-highlight](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh) (choose between powerlevel10k or this)
 - [powerlevel10k-theme](https://github.com/romkatv/powerlevel10k)
 
 ## Native Plugins
@@ -343,19 +345,3 @@ Enable custom plugins with cloning their git into ~/.oh-my-zsh/plugins folder an
 - [zoxide](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zoxide)
 - [zsh-interactive-cd](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh-interactive-cd)
 - [zsh-navigation-tools](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh-navigation-tools)
-
-### Removed
-
-- boot2docker: the boot2docker project was abandoned in 2020.
-- cargo: moved to the `rust` plugin.
-- cloudapp: removed due to [deprecated API](https://github.com/cloudapp/api#note-the-api-is-no-longer-supported).
-- copydir: functionality moved to [`copypath`](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copypath) plugin.
-- django: removed because Zsh provides a better completion for Django.
-- fedora: use `dnf` instead.
-- git-remote-branch: not actively maintained.
-- go: use `golang` instead.
-- npx: new npm versions (>=7.0.0) do not provide the same functionality.
-- nyan: the service that the plugin relied on is no longer available.
-- osx: renamed to `macos`.
-- rustup: moved to the `rust` plugin.
-- zsh_reload: functionality baked into the CLI with `omz reload`.
