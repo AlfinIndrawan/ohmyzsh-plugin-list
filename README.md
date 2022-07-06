@@ -1,6 +1,3 @@
-<head>
-<meta name="google-site-verification" content="6MiMYg4Uxs1R3ptQRPHAIEDWYfMe3Go7wE6XcYfuJVA" />
-</head>
 
 # ohmyzsh-plugin-list
 List of ohmyzsh plugin 
